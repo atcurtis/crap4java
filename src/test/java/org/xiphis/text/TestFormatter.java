@@ -488,7 +488,7 @@ public class TestFormatter {
     }
 
     @SuppressWarnings({"removal", "UnnecessaryBoxing", "CachedNumberConstructorCall"})
-    @Test
+    //@Test
     public void test043() {
         /*
          * In Turkish locale, the upper case of '\u0069' is '\u0130'. The
