@@ -92,7 +92,7 @@
                   <repository>
                       <id>github</id>
                       <name>GitHub Packages</name>
-                      <url>https://maven.pkg.github.com/atcurtis/packages</url>
+                      <url>https://maven.pkg.github.com/${env.GITHUB_ACTOR}/packages</url>
                   </repository>
              </distributionManagement>
          </profile>
